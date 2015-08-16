@@ -109,13 +109,9 @@ mean(activity1$steps, na.rm=TRUE)
 median(activity1$steps, na.rm=TRUE)
 ```
 
-Do these values differ from the estimates from the first part of the assignment? 
+Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
-=> Both appears to be the same.
-
-What is the impact of imputing missing data on the estimates of the total daily number of steps?
-
-=> Both the mean and the median appears to be the same.
+=> There seems no difference by just looking at the mean and the median. The impact is that we do not need to worry about missing values when calculating statstics that we want. Since missing values are replaced by the mean, the first and the second part will not vary much.
 
 # Are there differences in activity patterns between weekdays and weekends?
 

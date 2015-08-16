@@ -134,10 +134,8 @@ hist(steps1, main=&quot;Histogram of the total number of steps taken per day&quo
 <pre><code>## [1] 37.3826</code></pre>
 <pre class="r"><code>median(activity1$steps, na.rm=TRUE)</code></pre>
 <pre><code>## [1] 0</code></pre>
-<p>Do these values differ from the estimates from the first part of the assignment?</p>
-<p>=&gt; Both appears to be the same.</p>
-<p>What is the impact of imputing missing data on the estimates of the total daily number of steps?</p>
-<p>=&gt; Both the mean and the median appears to be the same.</p>
+<p>Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?</p>
+<p>=&gt; There seems no difference by just looking at the mean and the median. The impact is that we do not need to worry about missing values when calculating statstics that we want. Since missing values are replaced by the mean, the first and the second part will not vary much.</p>
 </div>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level1">
